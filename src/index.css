@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* Gradient animation (unchanged) */
 @keyframes gradient-x {
   0%, 100% {
     background-position: 0% 50%;
@@ -17,7 +22,18 @@
   animation: gradient-x 10s ease infinite;
 }
 
-html {
-  scroll-behavior: smooth;
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
