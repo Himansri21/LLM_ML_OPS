@@ -11,7 +11,7 @@ env:
   REGION: asia-south1
   REPOSITORY: portfolio-repo
   IMAGE_NAME: portfolio
-  CODE_REPO_URL: "https://github.com/Ruturajgaikwad/Iconic-Transformers.git"
+  CODE_REPO_URL: "https://github.com/Himansri21/LLM_ML_OPS.git"
 
 jobs:
   build-and-push:
