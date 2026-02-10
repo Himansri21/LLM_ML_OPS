@@ -7,7 +7,7 @@ export default function FloatingButton() {
 
   return (
     <div className="fixed bottom-6 right-6 flex flex-col space-y-3 items-end">
-      {/* Chatbot Button with Icon */}
+      {/* Chatbot Button */}
       <button
         onClick={() => navigate("/chatbot")}
         className="bg-green-600 text-white p-4 rounded-full shadow-lg hover:bg-green-700 transition-all flex items-center justify-center"
